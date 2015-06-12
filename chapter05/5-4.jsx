@@ -1,0 +1,1 @@
+﻿function makeLayer(n){    var laySet = activeDocument.layerSets.add();    for(var i=0; i<n; i++){            var num = i + 1;            num = ("0"+num).slice(-2);            var layName = "字幕"+num;            var layObj = laySet.artLayers.add();            layObj.name = layName;        }    }makeLayer(2);

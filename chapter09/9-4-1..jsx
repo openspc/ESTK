@@ -1,0 +1,1 @@
+﻿#target "Photoshop"var num = 12.3;var txt1 = "Illustrator";var len = app.documents.length;var a = b = c = 9;var obj = { }var ary = new Array();$.writeln(num);$.writeln(txt1);$.writeln(len);$.writeln(a+","+b+","+c);$.writeln(obj);$.writeln(ary);

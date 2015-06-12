@@ -1,0 +1,1 @@
+﻿// フォルダ選択ダイアログを表示するvar folderObj = Folder.selectDialog("フォルダを選択してください");if (folderObj != null){  // 何か選択された場合に処理する    $.writeln("選択されたフォルダ名は「"+decodeURI(folderObj.name)+"」です。");}else{    $.writeln("何も選択されませんでした");}

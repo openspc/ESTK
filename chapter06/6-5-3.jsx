@@ -1,0 +1,1 @@
+﻿var a = 123;a = a + 2;a = new Date();a = "Adobe";

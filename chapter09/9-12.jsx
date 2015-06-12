@@ -1,0 +1,1 @@
+﻿var num = 123.45;var str1 = new String(num);var str2 = "" + num;str1 = str1 + "67";str2 = str2 + "6789";$.writeln(str1);$.writeln(str2);

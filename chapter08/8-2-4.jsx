@@ -1,0 +1,1 @@
+﻿Math.galaxyExpress = 999;alert(Math.galaxyExpress);

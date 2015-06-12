@@ -1,0 +1,1 @@
+﻿var str = "12.345mm";var num1 = parseFloat(str);var num2 = parseInt(str);   // 整数になる$.writeln(num1);$.writeln(num2);

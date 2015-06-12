@@ -1,0 +1,1 @@
+﻿var num = 123.4567;var n1 = Math.floor(num);var n2 = Math.ceil(num);var n3 = Math.round(num);$.writeln("切り捨て："+n1);$.writeln("切り上げ："+n2);$.writeln("四捨五入："+n3);var n = num.toString().split(".");$.writeln("整数部："+n[0]);$.writeln("小数部："+n[1]);var n4 = num.toFixed(2);$.writeln("小数点以下2桁まで："+n4);var n5 = num.toPrecision(10);$.writeln("10桁に調整："+n5);

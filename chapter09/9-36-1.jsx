@@ -1,0 +1,1 @@
+﻿var n = calc(12, 5);$.writeln(n);// 以下が関数の定義function calc(a, b){    var result = a + b;    return result;}

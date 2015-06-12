@@ -1,0 +1,1 @@
+﻿var data = [ ];data["PS"] = "フォトショップ";data["AI"] = "イラストレータ";data["ID"] = "インデザイン";var appName = data["PS"];alert(appName || "不明なアプリケーションです");

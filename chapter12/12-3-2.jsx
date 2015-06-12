@@ -1,0 +1,1 @@
+﻿var fileObj = File.openDialog("ファイルを選択して下さい");$.writeln(fileObj.fsName);

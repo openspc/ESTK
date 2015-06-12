@@ -1,0 +1,1 @@
+﻿var data = [ ];data["OS"] = "OS X";data["version"] = 10.9;data["unit"] = "pt";for(var i in data){    alert(data[i]);}

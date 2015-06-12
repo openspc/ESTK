@@ -1,0 +1,1 @@
+﻿#target "photoshop-11"alert("test");

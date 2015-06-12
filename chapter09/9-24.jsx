@@ -1,0 +1,1 @@
+﻿var str = "12.345";var num1 = new Number(str);var num2 = parseFloat(str);var num3 = parseInt(str);   // 整数になるvar num4 = eval(str);var num5 = str - 0;num1 = num1 + 900;num2 = num2 + 900;num3 = num3 + 900;num4 = num4 + 900;num5 = num5 + 900;$.writeln(num1);$.writeln(num2);$.writeln(num3);$.writeln(num4);$.writeln(num5);

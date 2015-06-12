@@ -1,0 +1,1 @@
+﻿var text = "Sample_text.mp3";var p1 = text.indexOf("mp");var p2 = text.indexOf("mp", 20);var p3 = text.indexOf("AAC");var p4 = text.lastIndexOf("mp");var p5 = text.lastIndexOf("mp", 10);var p6 = text.lastIndexOf("AAC");$.writeln(p1);$.writeln(p2);$.writeln(p3);$.writeln(p4);$.writeln(p5);$.writeln(p6);

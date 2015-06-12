@@ -1,0 +1,1 @@
+﻿var dateObj = new Date();var h = dateObj.getHours();var m = dateObj.getMinutes() + 1;var s = dateObj.getSeconds();var msec = dateObj.getMilliseconds();$.writeln(h+"時"+m+"分"+s+"."+msec+"秒");

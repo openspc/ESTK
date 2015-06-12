@@ -1,0 +1,1 @@
+﻿function msgFunc(){    alert("OK");}alert(msgFunc);msgFunc = 123;alert(msgFunc);

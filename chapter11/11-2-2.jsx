@@ -1,0 +1,1 @@
+﻿var winObj = new Window("window", "Sample", [ 0,0, 320, 140]);// ボタンを作成するvar myBtn = winObj.add("button", [ 50, 100, 270, 120], "押してください");// 固定テキストを作成するwinObj.add("statictext", [ 50, 10, 270, 25], "Adobe JS GUIサンプル");// 編集可能なテキストを作成するwinObj.add("edittext", [ 50, 50, 270, 75], "レイヤー 5");winObj.center();winObj.show();

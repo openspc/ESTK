@@ -1,0 +1,1 @@
+﻿// 以下が関数の定義var calc = new Function("a", "b", "var result = a + b;return result;");var n = calc(12, 5);$.writeln(n);

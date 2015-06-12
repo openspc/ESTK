@@ -1,0 +1,1 @@
+﻿// 実行しているスクリプトと同じ階層にあるjsxincファイルを読み込む(function(loadFileName){    var filePath = $.fileName.split("/");    var basePath = "";    for(var i=0; i<filePath.length-1; i++){        basePath = basePath + filePath[i] + "/";    }    $.evalFile(basePath+ loadFileName, 20*1000); // 20秒でタイムアウト})("msg1.jsxinc");

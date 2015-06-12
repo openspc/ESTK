@@ -1,0 +1,1 @@
+﻿var docObj = app.documents.add();docObj.artLayers.add();docObj.artLayers.add();

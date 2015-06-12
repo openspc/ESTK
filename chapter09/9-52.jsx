@@ -1,0 +1,1 @@
+﻿// フォルダ選択ダイアログを表示するvar folderObj = Folder.selectDialog("フォルダを選択してください");if (folderObj != null){  // 何か選択された場合に処理する    var fileList = folderObj.getFiles("*.jpg");    $.writeln("JPEGファイルは"+fileList.length+"枚あります");}else{    $.writeln("キャンセルされました");}

@@ -1,0 +1,1 @@
+﻿var winObj = new Window("window", "Sample", [ 0,0, 320, 240]);winObj.center();winObj.show();

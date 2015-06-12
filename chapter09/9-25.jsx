@@ -1,0 +1,1 @@
+﻿var str = "abcあいうえお";for(var i=0; i<str.length; i++){    var code = str.charCodeAt(i);    var str16 = code.toString(16);    $.writeln(code + "(0x"+str16+")");}$.writeln("---------------");for(var i=0x3042; i<0x3142; i++){    var chr = String.fromCharCode(i);    $.write(chr);}$.writeln();$.writeln("---------------");

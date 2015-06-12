@@ -1,0 +1,1 @@
+﻿app.activeDocument.layers[0].name = "自動化レイヤー";

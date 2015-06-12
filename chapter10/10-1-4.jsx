@@ -1,0 +1,1 @@
+﻿(function(){    // ファイル選択ダイアログを表示する    var fileObj = File.openDialog("テキストファイルを選択してください");    if (!fileObj){ return; }    // キャンセルされた場合は何も処理しない    var flag = fileObj.open("r");   // 読み込みモードで開く    if (!flag){        alert("ファイルが開けません");        return;    }    fileObj.seek(7);    var text = fileObj.read(4);    // 4文字読み込む    $.writeln(text);})();

@@ -1,0 +1,1 @@
+﻿documents.add(DocumentColorSpace.CMYK, 640, 480, 1);

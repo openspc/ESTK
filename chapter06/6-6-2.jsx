@@ -1,0 +1,1 @@
+﻿var data = [12, 34, "Adobe", "PS", 14, "AI", true];

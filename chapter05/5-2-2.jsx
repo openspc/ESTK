@@ -1,0 +1,1 @@
+﻿function calc(I, l){ return I + l;}alert(calc(2, 7));

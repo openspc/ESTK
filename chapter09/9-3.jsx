@@ -1,0 +1,1 @@
+﻿const _app = "Adobe Photoshop";const VER = "CC";var appName = _app + " " + VER;$.writeln(appName);VER = "CS6";    // 後から改変できないappName = _app + " " + VER;$.writeln(appName);

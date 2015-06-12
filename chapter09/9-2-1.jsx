@@ -1,0 +1,1 @@
+﻿var gVersion;var gLang, gName, gType;function chk(){    gDoc = 0;    var layerNo= 2;}chk();

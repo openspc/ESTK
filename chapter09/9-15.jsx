@@ -1,0 +1,1 @@
+﻿var num = 765;var str = ("00000" + num).slice(-5);$.writeln(str);

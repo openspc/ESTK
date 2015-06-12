@@ -1,0 +1,1 @@
+﻿// 並び替える数値データvar data = [90, 5, 3, 80, 60, 70, 40, 20, 61, 2];// 昇順に並び替えるvar result = data.sort(function(a,b){ return a-b; });$.writeln(result);// 降順に並び替えるresult = data.sort(function(a,b){ return b-a; });$.writeln(result);

@@ -1,0 +1,1 @@
+﻿function setOpacity(layerName, n){    try{        if(activeDocument.layers[layerName]){            activeDocument.layers[layerName].opacity = n;            return true;        }    }catch(e){        return false;    }}setOpacity("樹木", 50);setOpacity("レイヤー 1", 80);setOpacity("テロップ", 75);

@@ -1,0 +1,1 @@
+﻿function msgFunc(){    alert("OK");}app.msg = msgFunc;app.msg();

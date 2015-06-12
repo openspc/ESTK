@@ -1,0 +1,1 @@
+﻿var data = [1, 2, 4, 8, 16, 32, 64];var total = 0;for(var i=0; i<data.length; i++){    total = total + data[i];}alert(total);

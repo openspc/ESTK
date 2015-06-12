@@ -1,0 +1,1 @@
+﻿app.msg = function(){ alert("OK"); };app.msg();

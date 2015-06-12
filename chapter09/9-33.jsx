@@ -1,0 +1,1 @@
+﻿// Illustratorのレイヤーで「レイヤー」で始まるレイヤーを全て削除(function(){    // レイヤーオブジェクトへの参照を変数に入れる    var layObj = app.activeDocument.layers;    // レイヤーの数だけ繰り返す    for(var i=layObj.length-1; i>=0; i--){        // レイヤーで始まる名前だったら削除する        if (layObj[i].name.indexOf("レイヤー") > -1){            layObj[i].remove();        }    }})();

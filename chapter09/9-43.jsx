@@ -1,0 +1,1 @@
+﻿var dateObj = new Date();var year = dateObj.getFullYear();var month = dateObj.getMonth() + 1;var date = dateObj.getDate();var day = dateObj.getDay();var dayStr = ["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"];day = dayStr[day];$.writeln(year+"年"+month+"月"+date+"日　"+day);

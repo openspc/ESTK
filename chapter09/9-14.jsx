@@ -1,0 +1,1 @@
+﻿var num = 0;// 20回繰り返すfor(var i=0; i<20; i++){    $.writeln("num = "+num);    // 1ずつ加算する    num = num + 1;    num = num % 4;  // 0〜3までの範囲になるようにする}

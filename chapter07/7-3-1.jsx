@@ -1,0 +1,1 @@
+﻿if (activeDocument.layers["樹木"]){    alert("樹木のレイヤーがあります");}else{    alert("樹木のレイヤーはありません");}

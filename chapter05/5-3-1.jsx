@@ -1,0 +1,1 @@
+﻿function calc(type, a, b){    var result;    switch(type){        case "加算" :            result = add(a, b);        case "減算" :            result = sub(a, b);    }    return result;    // 加算する関数    function add(a,b){        return a + b;    }    // 減算する関数    function sub(a, b){        return a - b;    }}alert(calc("加算", 2, 7));

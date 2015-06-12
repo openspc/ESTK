@@ -1,0 +1,1 @@
+﻿// 合計を求める関数を定義するfunction sum(){ // 受け取るパラメータは指定しません    // 渡されたパラメーターの数を取得    var len = arguments.length;    // 合計を入れる変数を用意    var total = 0;    for(var i=0; i<len; i++){        var n = arguments[i];        total = total + n;    }    return total;}// 合計を求めるvar a = sum(1,2,3);var b = sum(1,2,3,4,5,6,7,8,9,10);$.writeln(a);$.writeln(b);

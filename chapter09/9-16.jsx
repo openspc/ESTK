@@ -1,0 +1,1 @@
+﻿var flag = true;var num = 0;// 10回繰り返すfor(var i=0; i<10; i++){    $.writeln("flag = "+flag);    $.writeln("num = "+num);    // trueとfalseを交互に切り替える    flag = !flag;   // !を使う    // 0と1を交互に切り替える    num = num ^ 1;  // 排他的論理和の^を使う}

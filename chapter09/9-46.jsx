@@ -1,0 +1,1 @@
+﻿// 確認ダイアログを表示するvar flag = confirm("処理を実行しますか？");if (flag == true){    $.writeln("処理を実行します");}else{    $.writeln("処理は行いません。終了します。");}

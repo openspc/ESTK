@@ -1,0 +1,1 @@
+﻿var a = new Array();var b = new Array(100);var c = new Array(100, 200, 300);var d = [ ];var e = ["Adobe", "Photoshop", 14];var f = [["Photoshop", 14], ["InDesign", "CC"]];$.writeln("a = "+ a);$.writeln("b = "+ b);$.writeln("c = "+ c);$.writeln("d = "+ d);$.writeln("e = "+ e);$.writeln("f = "+ f);$.writeln("f[1][0] = "+ f[1][0]);

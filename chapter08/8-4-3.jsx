@@ -1,0 +1,1 @@
+﻿(function(){    var a = 700;    var b = 21;    var total = a + b;    alert(total);})();

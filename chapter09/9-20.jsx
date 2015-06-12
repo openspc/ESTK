@@ -1,0 +1,1 @@
+﻿var srcText = "金額は￥100円です。消費税(10%)分は￥10円です。合計で¥110円です。";var textAry = srcText.split("円");var text = "";for(var i=0; i<textAry.length; i++){    text = text + textAry[i];}$.writeln(text);

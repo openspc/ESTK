@@ -1,0 +1,1 @@
+﻿var text1 = "Sample text";var text2 = "サンプルテキスト";var text3 = "𠮟";var len1 = text1.length;var len2 = text2.length;var len3 = text3.length;$.writeln(len1);$.writeln(len2);$.writeln(len3);

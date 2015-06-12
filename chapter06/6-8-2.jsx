@@ -1,0 +1,1 @@
+﻿var data = [ ];data["Photoshop"] = 14;alert(data.Photoshop);

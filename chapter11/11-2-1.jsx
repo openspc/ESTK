@@ -1,0 +1,1 @@
+﻿var winObj = new Window("window", "Sample", [ 0,0, 320, 140]);// ボタンを作成するvar myBtn = winObj.add("button", [ 50, 100, 270, 120], "押してください");winObj.center();winObj.show();

@@ -1,0 +1,1 @@
+﻿var docObj = app.documents.add(320, 240, 300, "サンプル", NewDocumentMode.CMYK);docObj.artLayers.add();docObj.artLayers.add();

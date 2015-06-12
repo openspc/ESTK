@@ -1,0 +1,1 @@
+﻿try {    var obj = app.projectX;    $.writeln("objはあります");}catch(e){    $.writeln("エラー発生："+e);    $.writeln("objは存在しません");}

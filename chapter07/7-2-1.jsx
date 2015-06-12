@@ -1,0 +1,1 @@
+﻿var data = [ "PS", "AI", "ID", "AE", "Br" ];var appName = data[1];switch(appName){    case "PS" :         alert("フォトショップ");        break;    case "AI" :        alert("イラストレータ");        break;    case "ID" :        alert("インデザイン");        break;    default :        alert("不明なアプリケーションです");}

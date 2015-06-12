@@ -1,0 +1,1 @@
+﻿var list = ["レイヤー 1", "レイヤー 2", "レイヤー 3", "レイヤー 4"];var content = list[0];  // 最初の要素を読み出しswitch(content){    case "レイヤー 1" :         $.writeln("レイヤー 1に対して処理します");        break;    case "レイヤー 3" :         $.writeln("レイヤー 3に対して処理します");        break;    default :         $.writeln(content+"は処理しません");}

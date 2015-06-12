@@ -1,0 +1,1 @@
+﻿activeDocument.artLayers["黒マット"].opacity = 50;

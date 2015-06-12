@@ -1,0 +1,1 @@
+﻿var folderObj = Folder.selectDialog("フォルダを選択してください");var fileList = folderObj.getFiles();alert(fileList.length);

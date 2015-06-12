@@ -1,0 +1,1 @@
+﻿var text = "英語はabcの小文字とABCといった大文字があります";var str1 = text.toLowerCase();var str2 = text.toUpperCase();$.writeln(str1);$.writeln(str2);

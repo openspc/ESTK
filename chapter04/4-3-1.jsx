@@ -1,0 +1,1 @@
+﻿#target "Bridge"alert("test");

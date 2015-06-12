@@ -1,0 +1,1 @@
+﻿var n = 0;while( n<10 ){    $.writeln(n);    n = n + 1;}$.writeln("------------");n = 0;do {    $.writeln(n);    n = n + 1;}while( n<10 );$.writeln("------------");n = 100;while( n<10 ){    $.writeln(n);    n = n + 1;}$.writeln("------------");n = 200;do {    $.writeln(n);    n = n + 1;}while( n<10 );$.writeln("------------");
